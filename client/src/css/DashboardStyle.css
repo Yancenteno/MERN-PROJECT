@@ -1,0 +1,244 @@
+@media only screen and (max-width: 420px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 105%;
+        height: 100vh;
+        background-color: darkblue;
+        color: lightblue;
+    }
+
+
+    /* ========================Dashboard============================= */
+
+    .header {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .title {
+        font-size: 58pt;
+    }
+
+    .title2 {
+        padding: 10px;
+        font-size: 16pt;
+        width: 40vh;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .allButton {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dashButton {
+        height: 100px;
+        width: 300px;
+        margin: 20px;
+        border-radius: 50px;
+        border: 2px solid lightblue;
+        font-size: 25pt;
+        background-color: rgb(4, 4, 56);
+
+    }
+
+    .dashLink {
+        text-decoration: none;
+        color: lightblue;
+    }
+
+
+
+
+
+    /* ========================MedicineView============================= */
+
+    /* ---------------------------Form-------------------------------------- */
+    .MedNav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .medButton {
+        width: 300px;
+        height: 50px;
+        border-radius: 50px;
+        margin: 20px;
+        font-size: 30pt;
+        background-color: rgb(4, 4, 56);
+    }
+
+    .MedForm {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .MedTitle {
+        font-size: 50pt;
+        text-align: center;
+    }
+
+    .MedBorder {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(4, 4, 56);
+    }
+
+    .MedInput {
+        font-size: 20pt;
+        text-align: center;
+        border-radius: 20px;
+        height: 40px;
+        width: 270px;
+    }
+
+    .MedSubArea {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .MedSubmit {
+        height: 30px;
+        width: 200px;
+        border-radius: 50px;
+        font-size: 15pt;
+        background-color: blue;
+        color: white;
+    }
+
+
+
+    /* ---------------------------result-------------------------------------- */
+    .MedResult {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .MedTitle2 {
+        font-size: 40pt;
+        text-align: center;
+    }
+
+    .InfoBorder {
+        border: 2px solid black;
+        height: 40vh;
+        width: 80%;
+        background-color: lightblue;
+        color: black;
+
+    }
+
+    .MedInfo {
+        font-size: 20pt;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .MedInfoResult {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15pt;
+    }
+
+    /* ========================SymptomView============================= */
+    /* ---------------------------Symptom Form-------------------------------------- */
+    .SymptomTitle {
+        font-size: 30pt;
+        text-align: center;
+    }
+
+    .SympForm {
+        border: 2px solid black;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(4, 4, 56);
+    }
+
+    .SymptomLabel {
+        font-size: 20pt;
+        padding-top: 10px;
+    }
+
+    .SymptomInput {
+        font-size: 18pt;
+        text-align: center;
+        border-radius: 20px;
+        height: 40px;
+        width: 270px;
+    }
+
+    .SymptomInput2 {
+        font-size: 16pt;
+        border-radius: 10px;
+        height: 100px;
+        width: 270px;
+    }
+
+    .SubmitArea {
+        display: flex;
+        justify-content: center;
+    }
+
+    .SymptomSubmit {
+        height: 30px;
+        width: 200px;
+        border-radius: 50px;
+        font-size: 15pt;
+        background-color: blue;
+        color: white;
+        margin: 10px;
+    }
+
+    /* ---------------------------Symptom Result-------------------------------------- */
+    .SympResBorder {
+        border: 2px solid black;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        background-color: lightblue;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .miniTitle {
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .SymptomResult {
+        border: 1px solid black;
+    }
+
+    .SymptomResult2 {
+        list-style: none;
+        margin: 5px;
+    }
+
+    .other {
+        text-align: center;
+        color: red;
+        font-style: oblique;
+    }
+
+
+}
